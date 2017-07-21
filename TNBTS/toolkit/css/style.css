@@ -1,0 +1,282 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+.wrapper {
+    background-image: url('../asset/bg.png');
+    /*background: -webkit-linear-gradient(top left, #a35050 0%, #e35353 100%);
+    background: linear-gradient(to bottom right, #a35050 0%, #e35353 100%);*/
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.wrapper.form-success .container h1 {
+    -webkit-transform: translateY(85px);
+    transform: translateY(85px);
+}
+.container {
+    margin: 0 auto;
+}
+.container h1 {
+    font-size: 40px;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-timing-function: ease-in-put;
+    transition-timing-function: ease-in-put;
+    font-weight: 200;
+}
+.container a{
+    color: #1F3A93;
+    text-decoration: none;
+    font-weight: 300;
+}
+.container a:hover{
+    color: #03A678;
+    text-decoration: none;
+    font-weight: 300;
+}
+form {
+    padding: 20px 0;
+    position: relative;
+    z-index: 2;
+}
+form#login input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    border-radius: 0;
+    padding: 10px 15px;
+    margin: 0 auto 1px auto;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    font-weight: 300;
+}
+form input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    width: 240px;
+    border-radius: 0;
+    margin: 0 auto;
+    color: #333;
+    padding: 6px 10px;
+    font-size: 16px;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    font-weight: 300;
+}
+form input[type=number]{
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    padding: 6px 10px;
+    font-size: 16px;
+    width: 41px;
+}
+form input[type=submit]{
+    width: 140px;
+    background-color: #BF000E;
+    color: white;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+form input[type=button]{
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    padding: 0;
+}
+form input.pemesan{
+    width: 155px;
+}
+form {
+    padding: 13px 0;
+}
+form input:active {
+
+}
+.min-high {
+    min-height: 62px;
+}
+.min-high-lg {
+    height: 517px;
+    border: 1px solid #D0D0D3;
+    overflow-y: scroll
+}
+form button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    background-color: #18ce73;
+    border: 1px solid white;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 0;
+    width: 250px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+#loginbutton:hover {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    background-color: #119b56;
+    border: 1px solid white;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 0;
+    width: 250px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+form select::-webkit-inner-spin-button,
+form select::-webkit-outer-spin-button {
+    background-color: black;
+}
+form select {
+    background-color: white;
+    outline: 0;
+    border: 0;
+    color: black;
+    border-radius: 0;
+    width: 240px;
+    cursor: pointer;
+    padding: 6.5px 10px;
+    font-size: 16px;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+
+.kolom{
+    padding: 50px 0;
+    text-align: center;    
+}
+
+
+
+
+
+
+#kolom{
+    height: auto;
+    width: auto;
+    padding: 20px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.bayar{
+    width: 90px;
+}
+#bayar input[type=submit]{
+    margin-top: 10px;
+    width: 100%;
+}
+.margin-pesanan input[type=number]{
+    margin: auto 10px
+}
+.right{
+    float: right;
+    margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+    .pesanan{
+        margin: 0 10%;
+    }
+}
+.margin-pesanan{
+    margin: 10px auto 50px auto;
+}
+form ul{
+    padding-left: 0;
+}
+.navbar-inverse {
+    background-color: #2A2E39;
+    border-color: #2A2E39;
+}
+.navbar {
+    border-radius: 0;
+}
+.navbar {
+    min-height: 80px;
+    margin-bottom: 0;
+    border: none;
+}
+.navbar-inverse .navbar-nav > li > a > span{
+    color: white;
+    font-size: 50px;
+}
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.nav > li {
+    background-color: #DE1826;
+}
+
+table#pesanan tr td{
+    padding: 10px 0;
+}
+table#total tr td{
+    padding: 2px 0;
+}
+.navi{
+    text-align: center; 
+    padding-left: 70px;
+}
+@media (min-width:768px){
+    form input[type=number]:hover,
+    form input[type=number]:focus{
+        -webkit-appearance: number-input;
+        -moz-appearance: number-input;
+        appearance: number-input;
+        width: 62px;
+    }
+}
+@media (max-width:767px){
+    .navbar-collapse{width:auto;border-top:0;-webkit-box-shadow:none;box-shadow:none}
+    .navbar-collapse.collapse{display:block!important;height:auto!important;padding-bottom:0;overflow:visible!important}
+    .navbar-collapse.in{overflow-y:visible}
+    .navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse,.navbar-static-top .navbar-collapse{padding-right:0;padding-left:0}
+}
+@media (max-width:767px){
+    .container-fluid>.navbar-collapse,.container-fluid>.navbar-header,.container>.navbar-collapse,.container>.navbar-header{margin-right:0;margin-left:0}
+}
+@media (max-width:767px){
+    .navbar-nav{float:left;margin:0}
+    .navbar-nav>li{float:left}
+    .navbar-nav>li>a{padding-top:15px;padding-bottom:15px}
+}
+@media (max-width:767px){
+    .navbar-left{float:left!important}
+    .navbar-right{float:right!important;margin-right:-15px}
+    .navbar-right~.navbar-right{margin-right:0}
+}
